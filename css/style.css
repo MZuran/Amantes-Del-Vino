@@ -264,7 +264,15 @@ button {
     display: none;
 }
 
-@media (max-width: 980px) {
+@media (max-width: 640px) {
+    .desktop-item {display: none;}
+    .mobile-item {display:block;}
+    a {font-size: 18px;}
+    li {font-size: 18px;}
+    .interactive-map-text-container {max-width: 100%;}
+}
+
+@media (max-width: 980px) and (min-width: 641){
     .desktop-item {display: none;}
     .mobile-item {display:block;}
     a {font-size: 18px;}
