@@ -3,6 +3,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,24 +30,60 @@
   </head>
   <body class="column">
     <header class="column">
+      <!--Logo-->
       <div>
         <a href="../index.html">
           <img src="../images/logo.png" alt="logo" class="spaced-by-ten" />
         </a>
       </div>
-      <div class="navegation">
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="../pages/productos.html">Productos</a></li>
-          <li><a href="../pages/sedes.html">Sedes</a></li>
-          <li><a href="../pages/contacto.html">Contacto</a></li>
-          <li><a href="../pages/nosotros.html">Sobre Nosotros</a></li>
-        </ul>
-        <ul class="navegation">
-          <li>Búsqueda</li>
-          <li>Iniciar Sesión</li>
-        </ul>
+      <!--Classic Menu-->
+      <div class="desktop-item">
+        <div class="navegation">
+          <ul>
+            <li><a href="../index.html" class="selected">Inicio</a></li>
+            <li><a href="../pages/productos.html">Productos</a></li>
+            <li><a href="../pages/sedes.html">Sedes</a></li>
+            <li><a href="../pages/contacto.html">Contacto</a></li>
+            <li><a href="../pages/nosotros.html">Sobre Nosotros</a></li>
+          </ul>
+          <ul class="navegation">
+            <li>Búsqueda</li>
+            <li>Iniciar Sesión</li>
+          </ul>
+        </div>
       </div>
+      <!--Hamburger Menu-->
+      <div class="pos-f-t mobile-item">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <!--Content-->
+            <ul>
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="../pages/productos.html">Productos</a></li>
+              <li><a href="../pages/sedes.html">Sedes</a></li>
+              <li><a href="../pages/contacto.html">Contacto</a></li>
+              <li><a href="../pages/nosotros.html" class="selected">Sobre Nosotros</a></li>
+              <li>⠀</li>
+              <li>Búsqeda</li>
+              <li>Iniciar Sesión</li>
+            </ul>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </div>
+      <!--End of Hamburger Menu-->
     </header>
     <main class="occupy-all-width column">
       <div id="about-us-1" class="occupy-all-width">
