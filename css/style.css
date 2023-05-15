@@ -61,7 +61,7 @@ rgba(173, 40, 49, 1)
 
 .occupy-all-width {
     width: 100%;
-    height: 100vw;
+    min-height: 100vw;
 }
 
 #about-us-1 {
@@ -270,14 +270,19 @@ button {
     a {font-size: 18px;}
     li {font-size: 18px;}
     .interactive-map-text-container {max-width: 100%;}
+    .main-object-center {align-items: center; padding: 0px;}
+    h1 {font-size: 30px; text-align: center;}
+    #main-page-section {flex-direction: column;}
+    p {text-align: center;}
+    h2 {text-align: center;}
 }
 
-@media (max-width: 980px) and (min-width: 641){
+/*@media (max-width: 980px) and (min-width: 641){
     .desktop-item {display: none;}
     .mobile-item {display:block;}
     a {font-size: 18px;}
     li {font-size: 18px;}
-}
+}*/
 
 @media (min-width: 981px) {
     .desktop-item {display: block;}
