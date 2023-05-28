@@ -1,0 +1,11 @@
+{
+  "name": "Amantes-del-vino",
+  "version": "1.0.0",
+  "description": "TP Coderhouse\r Hecho por Matías Zuran\r Mirenlo en https://mzuran.github.io/Amantes-Del-Vino/index.html\r Todas las páginas tienen un grado de responsive para distintos dispositivos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
