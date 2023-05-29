@@ -1,0 +1,14 @@
+
+header {
+    background-color: rgba($color-5-rgb,0.9);
+    /*height:  15%;*/
+    justify-content: space-between;
+    position: sticky;
+    z-index: 3;
+    top: 0px;
+}
+
+header img {
+    height: 50px;
+    width: 100px;
+}
