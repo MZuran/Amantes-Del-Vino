@@ -32,6 +32,14 @@
     //min-height: 100vw;
 }
 
+.no-margin-override {
+    margin: 0 !important;
+}
+
+.minimum-height-carousel {
+    min-height: 775px;
+}
+
 .customRow {
     display: flex !important;
     flex-direction: row;
