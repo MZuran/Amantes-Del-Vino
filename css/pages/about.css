@@ -1,12 +1,12 @@
 #about-us-1 {
   top: 0px;
-  background-image: url("../images/background_transparent.png");
+  background-image: url("../images/backgrounds/background_transparent.png");
   background-size: cover;
 }
 
 #about-us-2 {
   top: 0px;
-  background-image: url("../images/background2_transparent.png");
+  background-image: url("../images/backgrounds/background2_transparent.png");
   background-size: cover;
 }
 

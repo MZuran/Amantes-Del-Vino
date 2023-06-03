@@ -18,11 +18,15 @@
     p {text-align: center;}
     h2 {text-align: center;}
     .header-direction {@include direction-row;}
+
+    .interactive-map-text-container {max-width: 90%;}
 }
 
 @media (min-width: 831px) {
     .desktop-item {display: block;}
     .mobile-item {display:none !important;}
     .header-direction {@include direction-column;}
+
+    .interactive-map-text-container {max-width: 50%;}
 }
 

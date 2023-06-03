@@ -3,6 +3,7 @@
     height: 300px;
 }
 
-.interactive-map-text-container {
-    max-width: 50%;
+.locations-container {
+    @include topology-pattern($color-2-hex, '0.4');
+    margin: 0;
 }
