@@ -32,64 +32,67 @@
   </head>
   <body class="column">
     <header class="column">
-      <!--Logo-->
-      <div>
-        <a href="../index.html">
-          <img src="../images/logo.png" alt="logo" class="spaced-by-ten" />
-        </a>
-      </div>
-      <!--Classic Menu-->
-      <div class="desktop-item">
-        <div class="navegation">
-          <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../pages/productos.html">Productos</a></li>
-            <li><a href="../pages/sedes.html">Sedes</a></li>
-            <li>
-              <a href="../pages/contacto.html" class="selected">Contacto</a>
-            </li>
-            <li><a href="../pages/nosotros.html">Sobre Nosotros</a></li>
-          </ul>
-          <ul class="navegation">
-            <li>Búsqueda</li>
-            <li>Iniciar Sesión</li>
-          </ul>
+      <div class="header-direction">
+        <!--Logo-->
+        <div>
+          <a href="../index.html">
+            <img src="../images/logo.png" alt="logo" class="spaced-by-ten" />
+          </a>
         </div>
-      </div>
-      <!--Hamburger Menu-->
-      <div class="pos-f-t mobile-item">
-        <div class="collapse" id="navbarToggleExternalContent">
-          <div class="bg-dark p-4">
-            <!--Content-->
+        <!--Classic Menu-->
+        <div class="desktop-item">
+          <div class="navegation">
             <ul>
               <li><a href="../index.html">Inicio</a></li>
               <li><a href="../pages/productos.html">Productos</a></li>
               <li><a href="../pages/sedes.html">Sedes</a></li>
-              <li>
-                <a href="../pages/contacto.html" class="selected">Contacto</a>
-              </li>
+              <li><a href="../pages/contacto.html" class="selected">Contacto</a></li>
               <li><a href="../pages/nosotros.html">Sobre Nosotros</a></li>
-              <li>⠀</li>
+            </ul>
+            <ul class="navegation">
               <li>Búsqueda</li>
               <li>Iniciar Sesión</li>
             </ul>
           </div>
         </div>
-        <nav class="navbar navbar-dark bg-dark">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarToggleExternalContent"
-            aria-controls="navbarToggleExternalContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </nav>
+        <!--Hamburger Menu-->
+        <div class="pos-f-t mobile-item">
+          <nav class="navbar navbar-dark bg-dark">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarToggleExternalContent"
+              aria-controls="navbarToggleExternalContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </nav>
+        </div>
+        <!--End of Hamburger Menu-->
       </div>
-      <!--End of Hamburger Menu-->
+
+      <!-- Collapsible Menu -->
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <!--Content-->
+          <ul>
+            <li><a href="../index.html" class="">Inicio</a></li>
+            <li><a href="../pages/productos.html" class="">Productos</a></li>
+            <li><a href="../pages/sedes.html" class="">Sedes</a></li>
+            <li><a href="../pages/contacto.html" class="selected">Contacto</a></li>
+            <li>
+              <a href="../pages/nosotros.html" class="">Sobre Nosotros</a>
+            </li>
+            <li>⠀</li>
+            <li>Búsqueda</li>
+            <li>Iniciar Sesión</li>
+          </ul>
+        </div>
+      </div>
+      <!-- End of Collapsible Menu -->
     </header>
     <main>
       <section class="customRow align-items-center">

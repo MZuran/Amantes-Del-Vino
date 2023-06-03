@@ -17,10 +17,12 @@
     #main-page-section {flex-direction: column;}
     p {text-align: center;}
     h2 {text-align: center;}
+    .header-direction {@include direction-row;}
 }
 
 @media (min-width: 831px) {
     .desktop-item {display: block;}
     .mobile-item {display:none !important;}
+    .header-direction {@include direction-column;}
 }
 

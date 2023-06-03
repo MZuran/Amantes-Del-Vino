@@ -1,3 +1,6 @@
+/* Mixins */
+@import './mixins/flex-directions.scss';
+
 /* Basics */
 @import './basics/colors.scss';
 @import './basics/reset.scss';
@@ -20,7 +23,6 @@
 @import './pages/contact.scss';
 @import './pages/about.scss';
 @import './pages/locations.scss';
-
 
 /* Animations */
 @import './animations/rainbow.scss';
