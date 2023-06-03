@@ -12,3 +12,35 @@ header img {
     height: 50px;
     width: 100px;
 }
+
+.navegation ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+}
+
+.navegation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Hamburger Menu stuff */
+.navbar {
+    min-height: 0;
+    margin: 1px;
+    border: none;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-toggler {
+    height:20px;
+    width:20px;
+    background-image: url(../images/navbar.png);
+    background-size: contain;
+    padding: 1px;
+}

@@ -10,6 +10,10 @@
     margin: 10px;
 }
 
+.selected {
+    color: $color-selected;
+}
+
 .column {
     display:flex;
     flex-direction: column;
@@ -36,10 +40,6 @@
     margin: 0 !important;
 }
 
-.minimum-height-carousel {
-    min-height: 775px;
-}
-
 .customRow {
     display: flex !important;
     flex-direction: row;
@@ -55,4 +55,14 @@
 .main-object-center {
     justify-content: center;
     margin-top: 50px;
+}
+
+.space-kids div {
+    margin-top: 10px;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }

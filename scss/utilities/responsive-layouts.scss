@@ -1,0 +1,26 @@
+.desktop-item {
+    display: block;
+}
+
+.mobile-item {
+    display: none;
+}
+
+@media (max-width: 830px) {
+    .desktop-item {display: none !important;}
+    .mobile-item {display:block;}
+    a {font-size: 18px;}
+    li {font-size: 18px;}
+    .interactive-map-text-container {max-width: 100%;}
+    .main-object-center {align-items: center; padding: 0px;}
+    h1 {font-size: 30px; text-align: center;}
+    #main-page-section {flex-direction: column;}
+    p {text-align: center;}
+    h2 {text-align: center;}
+}
+
+@media (min-width: 831px) {
+    .desktop-item {display: block;}
+    .mobile-item {display:none !important;}
+}
+
