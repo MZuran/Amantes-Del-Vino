@@ -11,3 +11,11 @@
     background-image: url("../images/backgrounds/background2_transparent.png");
     background-size: cover;
 }
+
+.padding-30 {
+    padding: 30px;
+}
+
+.contrast-background {
+    background-color: rgba($color: $color-1-rgb, $alpha: 0.5);
+}
