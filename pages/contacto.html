@@ -30,7 +30,7 @@
     <title>Amantes del Vino - Contacto</title>
     <link rel="stylesheet" href="../css/app.css" />
   </head>
-  <body class="column">
+  <body class="column stamp-background">
     <header class="column">
       <div class="header-direction">
         <!--Logo-->
@@ -46,7 +46,9 @@
               <li><a href="../index.html">Inicio</a></li>
               <li><a href="../pages/productos.html">Productos</a></li>
               <li><a href="../pages/sedes.html">Sedes</a></li>
-              <li><a href="../pages/contacto.html" class="selected">Contacto</a></li>
+              <li>
+                <a href="../pages/contacto.html" class="selected">Contacto</a>
+              </li>
               <li><a href="../pages/nosotros.html">Sobre Nosotros</a></li>
             </ul>
             <ul class="navegation">
@@ -82,7 +84,9 @@
             <li><a href="../index.html" class="">Inicio</a></li>
             <li><a href="../pages/productos.html" class="">Productos</a></li>
             <li><a href="../pages/sedes.html" class="">Sedes</a></li>
-            <li><a href="../pages/contacto.html" class="selected">Contacto</a></li>
+            <li>
+              <a href="../pages/contacto.html" class="selected">Contacto</a>
+            </li>
             <li>
               <a href="../pages/nosotros.html" class="">Sobre Nosotros</a>
             </li>
@@ -94,72 +98,72 @@
       </div>
       <!-- End of Collapsible Menu -->
     </header>
-    <main>
+    <main class="">
       <section class="customRow align-items-center">
         <div class="spaced-by-ten">
-          <form>
+          <form class="column spaced-by-thirty">
             <label for="address">Dirección de Correo</label>
             <input type="text" name="address" />
-            <br />
 
             <label for="name">Nombre y Apellido</label>
             <input type="text" name="name" />
-            <br />
 
             <label for="motive">Motivo de Contacto</label>
             <input type="text" name="motive" />
-            <br />
 
             <label for="textarea">Mensaje</label>
             <textarea name="textarea"></textarea>
-            <br />
 
-            <input type="checkbox" name="checkbox" />
-            <label for="checkbox">¿Recibir Correos?</label>
-            <br />
+            <div>
+              <input type="checkbox" name="checkbox" />
+              <label for="checkbox">¿Recibir Correos?</label>
+            </div>
 
-            <input type="submit" value="Enviar" />
+            <input class="send-button" type="submit" value="Enviar" />
           </form>
         </div>
 
-        <div class="column align-items-left spaced-by-ten space-kids">
+        <div class="column spaced-by-thirty space-kids justify-content-center align-items-center">
           <h1>Otros Métodos de Contacto:</h1>
-          <div class="customRow align-items-center">
-            <a href="https://mail.google.com/mail/u/0/#inbox">
-              <img src="../images/gmail_color.png" alt="gmail" class="icon" />
-            </a>
-            <p>matias.zuran@gmail.com</p>
+          <div class="space-kids column align-items-start">
+            <div class="customRow align-items-center">
+              <a href="https://mail.google.com/mail/u/0/#inbox">
+                <img src="../images/gmail_color.png" alt="gmail" class="icon" />
+              </a>
+              <p>matias.zuran@gmail.com</p>
+            </div>
+            <div class="customRow align-items-center">
+              <a href="https://www.whatsapp.com/?lang=es">
+                <img
+                  src="../images/whatsapp_color.png"
+                  alt="whatsapp"
+                  class="icon"
+                />
+              </a>
+              <p>+54 9 11 2502-0221</p>
+            </div>
+            <div class="customRow align-items-center">
+              <a href="https://twitter.com/intent/user?screen_name=matutn_">
+                <img
+                  src="../images/twitter_color.png"
+                  alt="twitter"
+                  class="icon"
+                />
+              </a>
+              <p>@matutn_</p>
+            </div>
+            <div class="customRow align-items-center">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <img
+                  src="../images/youtube_color.png"
+                  alt="youtube"
+                  class="icon"
+                />
+              </a>
+              <p>¡Suscribite a Amantes del Vino!</p>
+            </div>
           </div>
-          <div class="customRow align-items-center">
-            <a href="https://www.whatsapp.com/?lang=es">
-              <img
-                src="../images/whatsapp_color.png"
-                alt="whatsapp"
-                class="icon"
-              />
-            </a>
-            <p>+54 9 11 2502-0221</p>
-          </div>
-          <div class="customRow align-items-center">
-            <a href="https://twitter.com/intent/user?screen_name=matutn_">
-              <img
-                src="../images/twitter_color.png"
-                alt="twitter"
-                class="icon"
-              />
-            </a>
-            <p>@matutn_</p>
-          </div>
-          <div class="customRow align-items-center">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-              <img
-                src="../images/youtube_color.png"
-                alt="youtube"
-                class="icon"
-              />
-            </a>
-            <p>¡Suscribite a Amantes del Vino!</p>
-          </div>
+          
         </div>
       </section>
     </main>

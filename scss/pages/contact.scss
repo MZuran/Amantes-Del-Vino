@@ -9,6 +9,16 @@ input {
     padding: 5px;
 }
 
+.stamp-background {
+    @include stamp-pattern($color-2-rgb, '0.2');
+}
+
+.send-button{
+    background-color: white;
+    color: $color-1-rgb;
+    font-weight: 700;
+}
+
 textarea {
     border: 1px solid white;
 }
