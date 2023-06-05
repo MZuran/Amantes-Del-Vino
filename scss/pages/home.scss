@@ -12,6 +12,10 @@
   padding-bottom: 30px;
 }
 
+.wavy-background {
+  @include wavy-pattern($color-2-rgb, '0.05')
+}
+
 .secondary-container {
   width: 100%;
   min-height: 300px;

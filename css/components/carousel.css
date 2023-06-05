@@ -2,4 +2,8 @@
   min-height: 775px;
 }
 
+.carousel-control {
+  background-image: none !important;
+}
+
 /*# sourceMappingURL=carousel.css.map */
