@@ -4,8 +4,11 @@
 }
 
 .rainbow{
-    animation: rainbow 2.5s linear;
-    animation-iteration-count: infinite;
+    color: $color-5-rgb;
+    &:hover {
+        animation: rainbow 2.5s linear;
+        animation-iteration-count: infinite;
+    };
 }
 
 @keyframes rainbow-bg{

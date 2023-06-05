@@ -1,88 +1,17 @@
-.rainbow-bg {
-  animation: rainbow-bg 2.5s linear;
-  animation-iteration-count: infinite;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 7 |     color: $color-5-rgb;
+ *   |            ^^^^^^^^^^^^
+ *   '
+ *   scss\animations\rainbow.scss 7:12  root stylesheet */
 
-.rainbow {
-  animation: rainbow 2.5s linear;
-  animation-iteration-count: infinite;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 7 \2502      color: $color-5-rgb;\d\a   \2502             ^^^^^^^^^^^^\a   \2575 \a   scss\\animations\\rainbow.scss 7:12  root stylesheet";
 }
-
-@keyframes rainbow-bg {
-  100%, 0% {
-    background-color: rgb(255, 0, 0);
-  }
-  8% {
-    background-color: rgb(255, 127, 0);
-  }
-  16% {
-    background-color: rgb(255, 255, 0);
-  }
-  25% {
-    background-color: rgb(127, 255, 0);
-  }
-  33% {
-    background-color: rgb(0, 255, 0);
-  }
-  41% {
-    background-color: rgb(0, 255, 127);
-  }
-  50% {
-    background-color: rgb(0, 255, 255);
-  }
-  58% {
-    background-color: rgb(0, 127, 255);
-  }
-  66% {
-    background-color: rgb(0, 0, 255);
-  }
-  75% {
-    background-color: rgb(127, 0, 255);
-  }
-  83% {
-    background-color: rgb(255, 0, 255);
-  }
-  91% {
-    background-color: rgb(255, 0, 127);
-  }
-}
-@keyframes rainbow {
-  100%, 0% {
-    color: rgb(255, 0, 0);
-  }
-  8% {
-    color: rgb(255, 127, 0);
-  }
-  16% {
-    color: rgb(255, 255, 0);
-  }
-  25% {
-    color: rgb(127, 255, 0);
-  }
-  33% {
-    color: rgb(0, 255, 0);
-  }
-  41% {
-    color: rgb(0, 255, 127);
-  }
-  50% {
-    color: rgb(0, 255, 255);
-  }
-  58% {
-    color: rgb(0, 127, 255);
-  }
-  66% {
-    color: rgb(0, 0, 255);
-  }
-  75% {
-    color: rgb(127, 0, 255);
-  }
-  83% {
-    color: rgb(255, 0, 255);
-  }
-  91% {
-    color: rgb(255, 0, 127);
-  }
-}
-
-/*# sourceMappingURL=rainbow.css.map */

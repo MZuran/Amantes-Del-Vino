@@ -623,6 +623,9 @@ label {
 }
 
 .rainbow {
+  color: rgb(173, 40, 49);
+}
+.rainbow:hover {
   animation: rainbow 2.5s linear;
   animation-iteration-count: infinite;
 }
