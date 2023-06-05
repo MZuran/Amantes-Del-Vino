@@ -190,6 +190,9 @@ li {
   h2 {
     text-align: center;
   }
+  h3 {
+    text-align: center;
+  }
   /* Classes for all pages */
   .main-object-center {
     align-items: center;
