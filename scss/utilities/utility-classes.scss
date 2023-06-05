@@ -1,72 +1,80 @@
 .justify-content-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .align-items-center {
-    align-items: center;
+  align-items: center;
 }
 
 .align-self-center {
-    align-self: center;
+  align-self: center;
 }
 
 .spaced-by-ten {
-    margin: 10px;
+  margin: 10px;
+}
+
+.spaced-by-thirty {
+  margin: 30px;
 }
 
 .selected {
-    color: $color-selected;
+  color: $color-selected;
 }
 
 .column {
-    display:flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .align-items-left {
-    align-items: flex-start;
+  align-items: flex-start;
 }
 
 .max-width-three-hundred-pixels {
-    max-width: 300px;
+  max-width: 300px;
 }
 
 .max-width-six-hundred-pixels {
-    max-width: 600px;
+  max-width: 600px;
+}
+
+.min-width-80-percent {
+  min-width: 80%;
 }
 
 .occupy-all-width {
-    width: 100%;
-    //min-height: 100vw;
+  width: 100%;
+  //min-height: 100vw;
 }
 
 .no-margin-override {
-    margin: 0 !important;
+  margin: 0 !important;
 }
 
 .customRow {
-    display: flex !important;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
 
-    justify-content: center;
+  justify-content: center;
 }
 
 .row-reverse {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .main-object-center {
-    justify-content: center;
-    margin-top: 50px;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .space-kids div {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .icon {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
